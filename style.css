@@ -370,6 +370,14 @@ p {
     display: flex;
 }
 
+.hero-img {
+    /* display: block; */
+    /* max-width: 500px;
+    max-height: 250px; */
+    width: 50%;
+    height: 100%;
+}
+
 .button:link,
 .button:visited {
     /* display: inline-flex; */
