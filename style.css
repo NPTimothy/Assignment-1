@@ -356,7 +356,18 @@ template {
 }
 
 h1 {
-    font-size: 42px;
+    font-size: 2.6em;
+    letter-spacing: -1px;
+    /* line-height: 1.1; */
+}
+
+p {
+    line-height: 1.7;
+    font-size: 1.1em;
+}
+
+.hero {
+    display: flex;
 }
 
 .button:link,
