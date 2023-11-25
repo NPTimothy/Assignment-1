@@ -360,6 +360,29 @@ html {
     overflow-x: hidden;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.07);
+
+    /* border: solid; */
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    /* width: 50%; */
+    flex: 0 1 50%;
+}
 .container {
     margin: 10%;
 }
