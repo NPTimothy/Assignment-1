@@ -478,3 +478,15 @@ footer {
 .testimonial-text {
     color: #d0ebff;
 }
+
+table {
+    margin: auto;
+}
+
+th {
+    text-align: right;
+}
+
+td {
+    text-align: left;
+}
