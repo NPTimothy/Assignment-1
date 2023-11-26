@@ -386,9 +386,10 @@ nav a {
     justify-content: space-evenly;
     /* width: 50%; */
     flex: 0 1 40%;
+    margin-right: 20px;
 }
 .container {
-    margin: 10%;
+    margin: 108px 10% 0 10%;
     /* text-align: center; */
 }
 
@@ -489,10 +490,13 @@ footer,
 .features-1 {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .feature-block-1 {
-    width: 28%;
+    margin-top: 64px;
+    /* width: 28%; */
+    flex: 0 1 350px;
 }
 
 .feature-icon {
@@ -504,6 +508,36 @@ footer,
 .features-2 {
     display: flex;
     text-align: center;
+    margin-top: 64px;
+    flex-wrap: wrap;
+}
+
+.feature-block-2 {
+    flex: 0 1 500px;
+}
+
+.feature-image-1 {
+    order: 0;
+}
+
+.feature-text-1 {
+    order: 1;
+}
+
+.feature-image-2 {
+    order: 3;
+}
+
+.feature-text-2 {
+    order: 2;
+}
+
+.feature-image-3 {
+    order: 4;
+}
+
+.feature-text-3 {
+    order: 5;
 }
 
 table {
