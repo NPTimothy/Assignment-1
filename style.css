@@ -385,7 +385,7 @@ nav a {
     display: flex;
     justify-content: space-evenly;
     /* width: 50%; */
-    flex: 0 1 50%;
+    flex: 0 1 40%;
 }
 .container {
     margin: 10%;
@@ -399,7 +399,7 @@ h1 {
 
 p {
     line-height: 1.7;
-    font-size: 1.1em;
+    /* font-size: 1.1em; */
 }
 
 .hero {
@@ -476,6 +476,11 @@ footer {
 }
 
 .testimonial-text {
+    font-style: italic;
+    color: #e7f5ff;
+}
+
+.testimonial-author {
     color: #d0ebff;
 }
 
