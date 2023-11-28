@@ -557,6 +557,26 @@ footer,
     margin: 100px 0 0 0;
 }
 
+.plans {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.plans h2,
+.plans p {
+    text-align: center;
+}
+
+li {
+    margin-bottom: 16px;
+}
+
+.gold {
+    background-color: #ffd43b;
+    border-radius: 30px;
+}
+
 footer {
     margin: 200px 0 100px 0;
 }
