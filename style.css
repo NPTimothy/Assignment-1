@@ -558,9 +558,11 @@ footer,
 }
 
 .plans {
+    margin: 100px 0 100px 0;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 2%;
 }
 
 .plans h2,
@@ -572,9 +574,33 @@ li {
     margin-bottom: 16px;
 }
 
-.gold {
-    background-color: #ffd43b;
+.free,
+.gold,
+.diamond {
+    padding: 20px 20px 0 20px;
     border-radius: 30px;
+}
+.gold {
+    /* background-color: #ffd43b; */
+    /* border-radius: 30px; */
+    background: #ffd43b
+        linear-gradient(
+            -45deg,
+            transparent 0%,
+            rgba(255, 255, 255, 0.1) 45%,
+            rgba(255, 255, 255, 0.5) 50%,
+            rgba(255, 255, 255, 0.1) 55%,
+            transparent 100%
+        );
+}
+
+.diamond {
+    background: linear-gradient(-45deg, #ffd43b, #ff70f8, #7effff 80%);
+    /* background: linear-gradient(#fff, #fff) padding-box,
+        linear-gradient(-45deg, #ffd43b, #ff00f2, #00ffff 80%) border-box; */
+    /* border-width: 5px; */
+    /* border: 3px solid transparent; */
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.344);
 }
 
 footer {
