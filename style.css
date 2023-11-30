@@ -674,7 +674,6 @@ li {
     border-radius: 10px;
     border: 2px solid rgba(0, 0, 0, 0.344);
     transition: border 0.3s ease;
-    margin-bottom: 48px;
 }
 
 .coupon:focus {
@@ -684,6 +683,18 @@ li {
 
 ::placeholder {
     text-transform: none;
+}
+
+.coupon-message {
+    margin: 10px 0 48px 0;
+}
+
+.successful {
+    color: #69db7c;
+}
+
+.error {
+    color: #ff8787;
 }
 
 .enquiries {
