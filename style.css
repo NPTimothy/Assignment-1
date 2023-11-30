@@ -558,7 +558,7 @@ footer,
 }
 
 .plans {
-    margin: 100px 0 100px 0;
+    margin: 100px 0 0 0;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -666,6 +666,28 @@ li {
     cursor: pointer;
     background-color: #339af0;
     border: 2px solid #339af0;
+}
+
+.coupon {
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.344);
+    transition: border 0.3s ease;
+    margin-bottom: 48px;
+}
+
+.coupon:focus {
+    border: 2px solid #1971c2;
+    outline: none;
+}
+
+::placeholder {
+    text-transform: none;
+}
+
+.enquiries {
+    text-align: center;
 }
 
 footer {
