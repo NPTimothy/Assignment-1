@@ -645,11 +645,27 @@ li {
     color: #1971c2;
 }
 
+.free button:hover,
+.free button:active {
+    cursor: pointer;
+    background-color: #f1f3f5;
+}
+
 .gold button,
 .diamond button {
     background-color: #1971c2;
     border: 2px solid #1971c2;
+    /* border: 0; */
     color: #fff;
+}
+
+.gold button:hover,
+.gold button:active,
+.diamond button:hover,
+.diamond button:active {
+    cursor: pointer;
+    background-color: #339af0;
+    border: 2px solid #339af0;
 }
 
 footer {
