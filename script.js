@@ -1,3 +1,5 @@
+document.getElementsByTagName("html")[0].className = "load";
+
 window.onscroll = function () {
     if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
         document.querySelector("nav").classList.add("scroll");
@@ -37,11 +39,14 @@ function validateCoupon(coupons) {
 }
 
 let couponInput = document.getElementsByClassName("coupon")[0];
-
-couponInput.addEventListener(
-    "keyup",
-    function () {
-        validateCoupon(coupons);
-    },
-    false
-);
+try {
+    couponInput.addEventListener(
+        "keyup",
+        function () {
+            validateCoupon(coupons);
+        },
+        false
+    );
+} catch {
+    console.log("ERR");
+}

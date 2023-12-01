@@ -359,6 +359,14 @@ html,
 body {
     max-width: 100%;
     overflow-x: hidden;
+    transition: opacity 0.5s ease-in;
+}
+
+html {
+    opacity: 0;
+}
+html.load {
+    opacity: 1;
 }
 
 nav {
