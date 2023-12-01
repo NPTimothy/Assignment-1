@@ -1,3 +1,4 @@
+// Website fade-in on load
 document.getElementsByTagName("html")[0].className = "load";
 
 window.onscroll = function () {
@@ -8,6 +9,7 @@ window.onscroll = function () {
     }
 };
 
+// Validate coupons on each keypress
 let coupons = ["THL", "TEST"];
 
 function validateCoupon(coupons) {
@@ -35,7 +37,6 @@ function validateCoupon(coupons) {
             .getElementsByClassName("coupon-message")[0]
             .classList.remove("successful");
     }
-    // console.log(coupon);
 }
 
 let couponInput = document.getElementsByClassName("coupon")[0];
@@ -48,5 +49,5 @@ try {
         false
     );
 } catch {
-    console.log("ERR");
+    console.log("ERROR");
 }
