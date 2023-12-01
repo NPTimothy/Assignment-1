@@ -355,7 +355,8 @@ template {
     font-family: "Inter", sans-serif;
 }
 
-html {
+html,
+body {
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -364,7 +365,7 @@ nav {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 20px;
+    padding: 10px;
     position: fixed;
     top: 0;
     background-color: #fff;
@@ -377,10 +378,6 @@ nav {
     box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.07);
 }
 
-nav a {
-    text-decoration: none;
-}
-
 .links {
     display: flex;
     justify-content: space-evenly;
@@ -391,8 +388,28 @@ nav a {
 }
 
 .links a {
-    padding-right: 20px;
+    /* padding-right: 20px; */
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+    transition: background-color 0.5s ease;
 }
+
+.links a:hover,
+.links a:active {
+    /* font-weight: 700; */
+    /* transition: 0.3s ease; */
+    background-color: #e9ecef;
+}
+
+.current-page {
+    font-weight: 700;
+}
+
+.other-pages {
+    color: #495057;
+}
+
 .container {
     margin: 108px 10% 0 10%;
     /* text-align: center; */
@@ -428,6 +445,10 @@ p {
 .hero-text {
     /* flex: 1 1 50%; */
     min-width: 50%;
+}
+
+.button {
+    transition: background-color 0.5s ease;
 }
 
 .button:link,
