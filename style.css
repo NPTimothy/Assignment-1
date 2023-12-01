@@ -556,6 +556,7 @@ footer,
     height: 100%;
     max-width: 500px;
     width: 100%;
+    margin-top: 50px;
 }
 
 .feature-block-2 {
@@ -588,6 +589,16 @@ footer,
 
 .feature-text-3 {
     order: 5;
+}
+
+@media screen and (max-width: 600px) {
+    .feature-image-2 {
+        order: 2;
+    }
+
+    .feature-text-2 {
+        order: 3;
+    }
 }
 
 .footnote {
